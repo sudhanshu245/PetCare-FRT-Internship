@@ -32,21 +32,4 @@ PetCare is a web based app solution in which a user can:
  
 
 
-### Machine learning part
-
-We had trained a Multi Class Classifier Convolution neural network model over 5 broad categories (Hair loss, Loss of Apetite, Ticks, patches on body, watery eyes).  The model is trained over 75 epochs, Adam optimizer with 0.001 learning rate and used 6 layered CNN. We had trained 2 different models, one for Dogs and other for cats. Further we could scaled it to as many disease and animals as we want. In future we can train the machine learning model with more number of images so that the prediction accuracy of the model improves.  
-
-Currently we can classify the diseases in animal in 5 categories but later on we can use more data and computational power to train a better model which can
-classify more diseases with respect the different animals.  
-
-Along with this application is full of information. It provides the user with all the information related to the diseases commonly found in domestic animal(cat and dog).  
-
-
-### Software as a service Model for Vet
-The software or website will be given as a service to various veterinary doctor to track development and improvement in animals of their potential coutomers.
-VET can look after them regularly with physical meeting and can provide with the best treatment possible. they can provide suggestions to owner how they can look after and cure the disease in minimal time. through our portal.  
-We will use django-tenant-model to register every VET as a tenant and every tenant will have his/her private patients.  
-This dieticians will be asked to pay for our service.
-
-
 
